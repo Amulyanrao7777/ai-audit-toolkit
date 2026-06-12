@@ -39,11 +39,11 @@ have required.
 ai-audit-toolkit/
 │ 
 
-├── audit.ipynb                  # Full fairness analysis
+├── audit.ipynb                    # Full fairness analysis
 
-├── model_card.md                # Formal model documentation
+├── model_card.md                  # Formal model documentation
 
-├── eu_ai_act_assessment.md      # EU AI Act compliance assessment
+├── eu_ai_act_assessment.md        # EU AI Act compliance assessment
 
 ---
 
