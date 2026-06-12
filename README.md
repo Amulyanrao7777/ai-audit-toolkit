@@ -36,3 +36,64 @@ have required.
 ---
 
 ## Repository structure
+ai-audit-toolkit/
+│
+├── audit.ipynb                  # Full fairness analysis
+├── model_card.md                # Formal model documentation
+├── eu_ai_act_assessment.md      # EU AI Act compliance assessment
+
+---
+
+## How to run
+
+Open `audit.ipynb` in Google Colab or Jupyter. All data loads directly 
+from ProPublica's public repository — no downloads required.
+
+```python
+# Data source
+url = "https://raw.githubusercontent.com/propublica/compas-analysis/master/compas-scores-two-years.csv"
+```
+
+Install dependencies if needed:
+
+```bash
+pip install shap
+```
+
+---
+
+## What the notebook covers
+
+1. Data loading and cleaning — ProPublica's original filtering criteria
+2. Exploratory analysis — score distributions and recidivism rates by race
+3. Fairness metrics — demographic parity, FPR, FNR, TPR, precision, accuracy
+4. The Chouldechova impossibility theorem — demonstrated with real numbers
+5. Independent classifiers — Logistic Regression and Random Forest trained 
+   without race as a feature
+6. Fairness audit of independent models — proxy discrimination demonstrated
+7. SHAP explainability — feature importance and individual prediction analysis
+8. Cross-model comparison — FPR and FNR disparity across all three models
+
+---
+
+## EU AI Act
+
+COMPAS is a **high-risk AI system** under Annex III, Category 6 of the 
+EU AI Act — administration of justice. The full compliance assessment 
+in `eu_ai_act_assessment.md` evaluates Articles 9, 10, 11, 13, 14, 
+and 15 against the audit findings.
+
+---
+
+## References
+
+- ProPublica. (2016). Machine Bias. https://github.com/propublica/compas-analysis
+- Chouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2).
+- Lundberg & Lee. (2017). A unified approach to interpreting model predictions. NeurIPS.
+- European Parliament. (2024). Regulation (EU) 2024/1689 — Artificial Intelligence Act.
+
+---
+
+## Author
+
+Amulya N - Data Science undergrad, RV University, Bangalore.  
