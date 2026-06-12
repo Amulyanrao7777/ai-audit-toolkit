@@ -2,7 +2,7 @@
 
 A fairness audit and bias detection analysis of the COMPAS recidivism 
 algorithm, with an EU AI Act compliance assessment.
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Amulyanrao7777/ai-audit-toolkit/blob/main/audit.ipynb)
 ---
 
 ## What this is
