@@ -81,8 +81,7 @@ pip install shap
 
 ## EU AI Act
 
-COMPAS is a **high-risk AI system** under Annex III, Category 6 of the 
-EU AI Act — administration of justice. The full compliance assessment 
+COMPAS is a **high-risk AI system** under Annex III, Category 8 of the EU AI Act — administration of justice and democratic processes. The full compliance assessment
 in `eu_ai_act_assessment.md` evaluates Articles 9, 10, 11, 13, 14, 
 and 15 against the audit findings.
 
