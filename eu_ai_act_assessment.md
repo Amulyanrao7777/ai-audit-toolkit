@@ -11,11 +11,9 @@
 
 **Classification: HIGH-RISK**
 
-Under Annex III, Article 6(2), COMPAS falls under Category 6:
+Under Article 6(2), AI systems listed in Annex III are deemed high-risk. COMPAS falls under Category 8 — Administration of justice and democratic processes — which covers AI systems used by or on behalf of a judicial authority to assist in researching and interpreting facts and the law and applying the law to a concrete set of facts (Annex III, point 8(a)).
 
-> *"AI systems intended to be used by competent authorities or on their behalf for making or assisting in making decisions on matters relating to... the administration of justice and democratic processes."*
-
-Specifically - bail decisions, sentencing recommendations, and parole assessments are explicitly within scope. This is not a borderline case. COMPAS is one of the clearest examples of a high-risk AI system under the Act's own language.
+Note: Category 6 (Law Enforcement), point (d), separately covers AI systems used for "assessing the risk of a natural person offending or re-offending" — language that maps closely onto COMPAS's actual function. COMPAS is classified under Category 8 here because it is deployed by courts (a judicial authority) for bail, sentencing, and parole decisions, rather than by law enforcement agencies — but the overlap between the two categories is a genuine interpretive question, not a settled one. Either way, COMPAS is high-risk under Article 6(2); the open question is which Annex III sub-category most precisely applies.
 
 **Implications of high-risk classification:**
 All obligations under Articles 8–15 apply in full. These include risk management, data governance, technical documentation, transparency, human oversight, accuracy, and robustness requirements.
